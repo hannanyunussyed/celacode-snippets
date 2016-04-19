@@ -1,0 +1,770 @@
+/* -- [ REDEFINED XHTML ELEMENTS ] -------------------------------------- */
+
+	body {
+		
+		margin:0px;
+		font:12px Arial, Helvetica, sans-serif;
+		  
+	}
+	h1 {
+		margin-top:0;
+		font:bold 22px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#649186;
+	}
+	h2 {
+		margin-top:0;
+		font:bold 16px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#000000;
+	}	
+	th {
+		color:#FFFFFF;
+		text-align:left;
+		background:#649186;
+	}
+	tr.normalRow {
+	}
+	tr.altRow {
+		background:#F6FBEE;
+	}	
+	a, a:visited {
+		color:#3588AC;		
+	}
+	a:hover {
+	color:#649186;
+	}
+	.clear {
+		clear:both;
+		height:0;
+		line-height:0;
+	}
+	.hr {
+		border-top: 1px solid rgb(204, 204, 204);
+		line-height: 0px;
+		padding-bottom: 1px;
+		margin-bottom: 1em;
+	}
+	
+
+
+/* -- < STANDARD FORM ELEMENTS > ---------------------------------------- */
+	
+	label {
+		font-weight:bold;
+	}
+	input.txt {
+		padding:2px;
+		background:#F6FBEE;
+		border:1px solid #649186;	
+	}
+	input.btn {
+		font:11px Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		padding:2px 6px;
+		color:#FFFFFF;
+		background:#649186;	
+	}
+	input.btn2 {
+		font:11px Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		padding:2px 6px;
+		color: #3A87AF;
+		background: #E0F2C6;	
+	}	
+
+
+/* -- < SITE LAYOUT > --------------------------------------------------- */	
+
+	#notice {
+
+		padding:5px;
+		position:inherit; 
+
+	}
+	
+	#container {
+		width:780px;
+	}
+	#signInLink {
+		position:absolute;
+		top:78px;
+		left:-30px;
+		border:none;
+		
+	}
+	#columnWrapper {
+		margin:0;
+		padding:0;
+		background: url(../images/content_bg.gif) repeat-y;
+	}
+	
+	#sideNav {
+		font:bold 12px Arial, Helvetica, sans-serif;
+		color:#848DD0;
+		float:left;
+		width:190px;
+		padding:0px;
+		margin:0px;
+		background:#666600;
+		/*background:#CCCCCC;*/
+	}
+	#sideNav ul { 
+		margin:12px 0px 0px 0px;
+		padding:0px;
+		list-style-type: none;
+	}
+	#sideNav li {
+		margin:2px 0 0;
+	}
+	#sideNav a, #sideNav a:visited  {
+		text-transform:uppercase;
+		background:#666600;
+		/* background:#8D8C47;*/
+		/*background:#CCCCCC;*/
+		text-decoration: none;	
+		display:block;		
+		padding: 2px 2px 2px 20px;
+		border: 1px solid #8D8C47;
+		width:190px; /* IE Width */
+		voice-family: "\"}\"";
+  	voice-family: inherit;		
+		width:166px;
+	}
+	#sideNav a:link, #sideNav a:active, #sideNav a:visited {	
+		/*color: #3A87AF;
+		color: #010287; */
+		color: #C4C43E;
+	}
+	#sideNav a:hover {
+	/* border: 1px solid #BEBEBE;*/
+		border: 1px solid #8D8C47;
+	/*background: #BEBEBE; */
+		background: #C4C43E;
+	/*color: #3A87AF;*/
+		color: #C03;
+	padding: 2px 2px 2px 20px;
+	width:190px; /* IE Width */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:166px;
+	}
+	#contentCell {
+		width:548px;
+		margin-left:202px;
+		padding-top:12px;
+	}
+	#contentCell p {
+		padding:0;
+		margin:0 0 1em 0;
+		line-height:1.5em;
+		text-align:justify;
+	}	
+	/* Hide from IE5-mac. Only IE-win sees this. \*/
+	* html #sideNav {
+		margin-right: 12px;
+	}
+	* html #contentCell {
+		width:575px;
+		height: 1%;
+		margin-left: 0;
+	}
+	* html #contentCell p {
+		padding:0 1em 0 0;
+	}
+	/* End hide from IE5/mac */
+	#middleColumn {
+		top:1298px;  /* added by hammad*/
+		width:400px;
+		margin:0px;
+	}
+	#rightColumn {
+		position:absolute;
+		top:98px;
+		left:202px;
+		width:178px;
+		margin:0px -12px 0px 400px;		
+	}
+	#marquee_box {
+	position:absolute;
+	top:98px;
+	left: -210px;
+	width:574px;
+	margin:0px -12px 0px 400px;
+	/*background-color: #FFFF00;
+	background-color: #00004F;
+	background-color: #010287;*/
+	background-color: #A02001;
+	font-size: 11px;
+	color: #09C;
+	}
+	
+	#imgbox {
+    vertical-align : middle;
+    position : absolute;
+    border: 1px solid #999;
+    background : #FFFFFF; 
+    filter: Alpha(Opacity=100);
+    visibility : hidden;
+    height : 200px;
+    width : 200px;
+    z-index : 50;
+    overflow : hidden;
+    text-align : center;
+	}
+
+
+	
+	#middleColumn2 {
+	position:absolute;
+	/*top:98px;*/
+	left:200px;
+	/*width:574px;
+	margin:0px -12px 0px 400px;
+	background-color: #A02001;
+	font-size: 11px;
+	color: #09C;*/
+	}
+	
+	
+	
+	#black_line {
+	position:absolute;
+	top:117px;
+	left:-210px;
+	width:1797px;
+	margin:0px -12px 0px 400px;
+	}
+	
+	#black_bar {
+		position:absolute;
+		top:98px;
+		left:360px;
+		width:1px;
+		height:18px;
+		margin:0px -12px 0px 400px;		
+	}
+	
+	#CELA_images {
+	position:absolute;
+	/*top:710px;*/
+	top:669px;
+	left:-185px;
+	width:406px;
+	margin:0px -12px 0px 400px;
+	height: 116px;
+	}
+	
+	
+	#rightColumn dl {
+		margin:0px;
+		padding:0px;
+	}
+	#rightColumn dt {
+		font:bold 12px Arial, Helvetica, sans-serif;
+		color: #E1E1E1;
+		line-height: 1.05em;
+		background:#666666;		
+		padding:4px;
+	}
+	#rightColumn dd {
+		font:12px Arial, Helvetica, sans-serif;
+		background:#ffffff;
+		color: #000000;
+		padding:8px;
+		margin:0px;
+	}
+	#footer {
+		font:normal 9px Arial, Helvetica, sans-serif;
+		color: #3A87AF;
+		clear:both;
+		padding-left:0px;
+	}
+	.homeBox {
+	
+		font:bold 12px Arial, Helvetica, sans-serif;
+	  height:170px;
+	}
+
+	
+/* -- [ TWO COLUMNS ] --------------------------------------------------- */
+ 
+	#twoColWrapper {
+	}
+	#twoColWrapper div.mainCol {
+		float:left;
+		width:336px;
+		text-align:justify;
+		padding-right:12px;
+		border-right:1px solid #8D8C47;
+		/*border-right:1px solid #cccccc;*/
+	}
+	#twoColWrapper div.secondCol {
+		margin-left:372px;
+		background:#FFFFFF;
+	}
+	/* Hide from IE5-mac. Only IE-win sees this. \*/
+	* html #twoColWrapper div.mainCol {
+		margin-right: 24px;
+	}
+	* html #twoColWrapper div.secondCol {
+		height: 1%;
+		margin-left: 0;
+	}
+	/* End hide from IE5/mac */
+	#twoColWrapper p {
+		padding:0;
+		margin:0 0 12px 0;
+	}
+
+
+/* -- [ MEMBERS NAV ] --------------------------------------------------- */
+
+	#memberSearch {
+		float:right;
+		padding:0;
+		margin-right:4px;
+	}
+	#memberSearch form {
+		margin:0;
+	}
+	#memberNav {
+		height:39px;
+		
+		padding:0;
+		margin:0 0 12px 0;
+		background:#649186 url('../images/member-nav-bg.png') repeat-x;
+	}
+	#signInInfo {
+		position:absolute;
+		top:114px;
+		left:586px;
+		width:140px;
+		padding:0;
+		margin:0;
+		color:#FFFFFF;
+		text-align:right;
+	}
+	#signInInfo a, #signInInfo a:visited {
+		color:#FFFFFF;
+	}
+	#signInInfo a:hover {
+		color:#9CCEDE;
+	}
+	#memberNav ul {
+		float:left;
+		padding:0;
+		margin:0;
+		list-style-type:none;
+	}
+	#memberNav ul li {
+		float:left;
+		padding:0;
+		margin:0;
+		list-style-type:none;
+	}
+	#memberNav ul li a, #memberNav ul li a:visited {
+		float:left;
+		padding:12px;
+		margin:0;
+		text-transform:uppercase;
+		text-decoration:none;
+		color:#FFFFFF;
+	}
+	#memberNav ul li a:hover {
+		background-color:#9CCEDE;
+	}
+	#az-list {
+		margin: 1em 0 4px 2px;
+	}
+	#az-list ul, #az-list li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	#az-list ul li.current {
+		font-size: 1.25em;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #000000;	
+	}
+	#az-list ul li {
+		display: inline;
+		padding-right: 9px;
+	}
+	#az-list ul li a, #az-list ul li a:visited {
+		font-size: 1.25em;
+		text-transform: uppercase;
+		color: #000000;
+	}
+/* -- < SIGN IN FORM > -------------------------------------------------- */	
+
+	#signIn {
+		border:1px solid #649186;
+		background:#FFFFFF;
+	}
+	#passwordResetForm #signIn {
+		width:197px;
+	}
+	#signInForm {
+		padding:0;
+		margin:0;
+	}
+	#signIn h1 {
+		padding:8px;
+		margin:0;
+		font:bold 12px Arial, Helvetica, sans-serif;
+		color:#FFFFFF;
+		background:#649186;
+	}
+	#signIn div {
+		padding:0;
+		margin:4px 8px 4px 8px;
+	}
+	#signIn label {
+		font-weight:bold;
+		margin-top:0.25em;
+		width:86px;
+		float:left;
+	}
+	#signIn input.txt {
+		width:85px;
+	}
+	#signIn div.forgotPasswordLink {
+		margin-top:16px;
+	}
+
+	#signIn #notice{
+		padding:8px;
+		margin:0;
+		font:bold 14px Arial, Helvetica, sans-serif;
+	}
+
+/* -- < MEMBER PROFILE FORM > ------------------------------------------- */
+	
+	th.show-hide-img {
+		text-align:right;
+	}
+	td.formInptTitle {
+		font-weight:bold;
+	}
+	tr.formSmallInptDesc {
+		font-size:9px;
+		color:#999999;
+	}
+	tr.formSmallInptDesc td {
+		padding:0 4px 4px 4px;
+		margin:0;
+	}
+	#memberInfo {
+		margin:0px 0 12px 0;
+		padding-top:12px;
+	}
+	#homeAddress, #workAddress, #phoneNumbers, #emailAddresses {
+	margin:12px 0 12px 0;
+	font-size: 12px;
+	}
+	#memberInfo div.body {
+		display:block;
+	}
+	#memberInfo div.footer {	
+		display:none;
+	}
+	#homeAddress div.body, #workAddress div.body, #phoneNumbers div.body, #emailAddresses div.body, #password div.body {
+		display:none;
+	}
+	#memberInfo div.footer, #homeAddress div.footer, #workAddress div.footer, #phoneNumbers div.footer, #emailAddresses div.footer, #password div.footer {
+		font:12px Arial, Helvetica, sans-serif;
+		background:#8D8C47;
+		background:#CCCCCC;
+		padding:2px;
+		margin:0 auto;
+	}
+	div.footer a, div.footer a:visited {
+		display:block;
+		color:#000000;
+		text-decoration:none;
+	}
+	
+/* -- < EVENT MONTH VIEW > ---------------------------------------------- */
+
+	#eventDays {
+		margin:30px 0 0 20px;
+	}
+	#eventDays .eventWrapper {
+		width:540px;
+		border-bottom: 1px solid #649186;
+		margin: 0 0 20px 0;
+	}
+	
+	#eventDays .eventDay {
+		float: left;
+		width: 60px;
+		height: 60px;
+		padding-right:4px;
+		margin:0;	
+	}
+	#eventDays .eventInfo {
+		padding-left:10px;
+		margin: 0 0 0 62px;
+		border-left: 1px solid #649186;
+	}
+	/* Start of IE 3 pixel hack \*/
+	
+	* html #eventDays .eventDay {
+		margin-right:-3px;
+	}
+	
+	* html #eventDays .eventInfo {
+		height: 1%;
+		margin-left: 0;
+	}
+	
+	/* End of IE 3 pixel hack */
+	
+	#eventDays .eventInfo dl {
+		padding:0;
+		margin:0;
+	}
+	#eventDays .eventInfo dd {
+		padding:0;
+		margin:0;
+		
+		font:12px Arial, Helvetica, sans-serif;
+	}
+	#eventDays dd.eventDate {
+		margin-top:12px;
+	}
+	#eventDays .eventInfo {
+		margin-bottom:8px;
+	}
+	/*
+	#eventDays .eventInfo dd.12px Arial, Helvetica, sans-serif {
+		padding:0;
+		margin:0;
+	}
+	*/
+	
+	/* Event Day Styles */
+	#monthTitle h1 {
+		padding:0;
+		margin:0;
+	}
+	#crntMonthYearName {
+		font:bold 14px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#FFFFFF;
+		background:#649186;
+		padding:4px;
+		margin:0;
+	}
+	#monthNav {
+		margin-top:4px;
+	}
+	#monthNav a, #monthNav a:visited, #bottomMonthNav a, #bottomMonthNav a:visited{
+		font:normal 14px Arial, Helvetica, sans-serif;
+		color:#000000;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	#monthNav a:hover, #bottomMonthNav a:hover {
+		font:normal 14px Arial, Helvetica, sans-serif;
+		color:#649186;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	#eventDays .eventDay > p {
+		padding:0;
+		margin:0;
+		
+		font:bold 36px Arial, Helvetica, sans-serif;
+		text-align:right;
+		color:#649186;
+		line-height:0.8em;
+	}
+	#eventDays .eventDayMonth > p{
+		padding:0;
+		margin:0;
+		
+		font:bold 28px Arial, Helvetica, sans-serif;
+		text-align:right;
+		color:#649186;
+		line-height:1em;
+	}
+	
+	#eventDays .eventInfo dt a, #eventDays .eventInfo dt a:visited {
+		font:bolder 14px Arial, Helvetica, sans-serif;
+		color:#000000;
+	}
+	#eventDays .eventInfo dt a:hover {
+		font:bolder 14px Arial, Helvetica, sans-serif;
+		color:#649186;
+	}
+
+
+/* -- < COMING EVENTS > ------------------------------------------------- */
+
+	#comingEvents ul, #comingEvents li {
+		padding:0;
+		margin:0;
+		list-style-type:none;
+	}
+	#comingEvents ul {
+		margin-bottom:12px;
+	}
+	#comingEvents li {
+		line-height:1.5em;
+	}
+	a.more {
+		padding-right:10px;
+		background:url('../images/more-arrow.png') no-repeat 100% 4px;
+	} 
+
+/* -- < EVENT > --------------------------------------------------------- */	
+
+	#event {
+		padding:10px 0 0 0;
+		margin-bottom:20px;
+		border-top:2px #649186 solid;
+		border-bottom:2px #649186 solid;
+	}
+	#event .label {
+		font:bold 12px Arial, Helvetica, sans-serif;
+	}
+	#eventDetails {
+		margin-bottom:12px;
+		padding-top:12px;
+		border-top:1px #649186 solid;
+		font-size: 13px;
+		line-height: 1.5em; 
+		text-align: left;
+
+	}	
+	
+
+/* -- < JOB DETAILS > --------------------------------------------------- */
+	
+	#jobDetails {
+	}
+	#jobMeta {
+		padding-bottom: 4px;
+		border-bottom: 1px solid #5D87AF;
+		margin-bottom: 15px;
+	}
+	#jobMeta td.title {
+		padding-right:10px;
+		margin:0;
+		color:#5D87AF;
+		font-weight:bold;
+		background:#F6FBEE;
+	}
+	#jobMeta td.value {
+		padding-left:10px;
+		margin:0;
+		background:#F9F9F9;		
+	}
+	#jobDetails #keywords {
+		padding-top:0;
+		padding-bottom:6px;
+	}
+	#jobDetails #keywords {
+		border-bottom:1px solid #5D87AF;
+	}
+	ul.basic {
+		padding: 0;
+		margin: 0 0 1em 0;
+	}
+	ul.basic li {
+		line-height: 1.5em;
+		margin-left: 20px;
+		padding: 0 0 0 2px;
+		list-style: url("../images/arrow.gif") outside none;
+	}
+
+
+/* -- < MEMBER DETAILS > ------------------------------------------------ */	
+
+	#memberDetails h3 {
+		color:#5D87AF;
+		padding-bottom:4px;
+		border-bottom: 1px solid #5D87AF;
+		margin:25px 0 4px 0;
+	}
+	#memberDetails td.title {
+		padding-right:6px;
+		font-weight:bold;
+	}
+	#memberDetails ul {
+		padding:0;
+		margin-left:2px;
+		list-style-type: none;
+	}
+	#memberDetails ul li {
+		line-height:1.5em;
+		margin-left: 0;
+		padding:0 0 0 20px;
+		background-image: url("../images/arrow.gif");
+		background-repeat: no-repeat;
+		background-position: 0 4px;
+	}
+
+
+/* -- < MISC > ---------------------------------------------------------- */		
+
+	#signInError {
+		background:#FCF0F0;
+		padding:6px;
+		margin-bottom:12px;
+		border:1px solid #CC0000;
+	}
+	#errorMsg {
+		padding:12px;
+		margin-bottom:12px;
+		background:#FCF0F0;
+		border:1px solid #CC0000;
+	}
+	#errorMsg p {
+		font-size:1em;
+		font-weight:bold;
+		color:#CC0000;		
+	}
+	#errorMsg ul, #errorMsg li {
+		font-weight:normal;
+		color:#CC0000;
+	}
+	#signInError strong {
+		font-size:1.5em;
+		display:block;
+		color:#CC0000;
+		margin:0 0 12px;
+	}
+	#signInError p {
+		padding:0;
+		margin:0;
+		line-height:1.5em;
+		text-align:left;
+	}
+	dl.regions dt {
+		font-weight: bold;
+	}
+	dl.regions dd {
+		margin: 0.25em 0 1em 2em;
+	}
+
+/**
+ * IMAGES 
+ * ---------------------------------------------------------------------- */
+
+	div.leadership-photo {
+		float: left;
+		margin: 4px 1em 1em 0;
+	}
+	div.conference-photo {
+		float: left;
+		margin: 4px 1em 1em 0;
+	}
+	
+
+
+	

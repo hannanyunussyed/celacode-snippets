@@ -1,0 +1,29 @@
+.Cela-Forum {
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.prof-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.prof-name-list {
+  margin: 2px 0 0 0;
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.panel-heading {
+	background-color: rgb(71, 130, 178)!important;
+	border-bottom: 2px solid gold!important;
+	border-radius: 5px;
+}
+.panel-title a {
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white!important;
+}
